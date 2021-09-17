@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Raleway", sans-serif;
+  font-size: 87%;
+}
+.student-profile h3 {
+  font-size: 1.8em;
+  font-weight: 900;
+}
+ul.gradesList li {
+  border: none;
+  padding: 0.3em;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 78% !important;
+  }
+  .student-profile h3 {
+    font-size: calc(1em + 1vw);
+  }
+  .student-profile img {
+    transform: scale(1) !important;
+  }
+  .student-profile .gradesList {
+    padding-left: 0 !important;
+  }
+}
